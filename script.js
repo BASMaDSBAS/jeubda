@@ -70,7 +70,7 @@ function nextRound() {
     currentRound++;
 
     // Vérifier si toutes les questions ont été posées
-    if (currentRound < gameData.length) {
+    if (currentRound < 10) {
         // Mettre à jour l'image
         const imageContainer = document.getElementById('image-container');
         const currentImage = gameData[currentRound].image;
