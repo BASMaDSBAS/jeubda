@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu d'Images et Mots</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        #game-container {
+            text-align: center;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        #image-container img {
+            max-width: 100%;
+            height: auto;
+            max-height: 200px;
+            margin-bottom: 10px;
+        }
+
+        #word-input {
+            padding: 10px;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        #result {
+            font-weight: bold;
+            color: #3498db;
+        }
+
+        #next-button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+        }
+
+        #next-button:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <div id="game-container">
+        <h1>Jeu d'Images et Mots</h1>
+        <div id="image-container">
+            <!-- L'image sera affichée ici -->
+        </div>
+        <input type="text" id="word-input" placeholder="Écrivez le mot">
+        <button id="check-button" onclick="checkAnswer()">Vérifier</button>
+        <p id="result"></p>
+        <button id="next-button" onclick="nextRound()">Tour suivant</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
