@@ -1,17 +1,17 @@
 // Données du jeu
 // Données du jeu
 const allGameData = [
-    { word: 'un', image: 'https://raw.githubusercontent.com/BASMaDSBAS/jeu-bda/main/1.JPG' },
-    { word: 'deux', image: 'https://raw.githubusercontent.com/BASMaDSBAS/jeu-bda/main/2.JPG' },
-    { word: 'deux', image: 'https://raw.githubusercontent.com/BASMaDSBAS/jeu-bda/main/3.JPG' },
-    { word: 'deux', image: 'https://raw.githubusercontent.com/BASMaDSBAS/jeu-bda/main/4.JPG' },
-    { word: 'deux', image: 'https://raw.githubusercontent.com/BASMaDSBAS/jeu-bda/main/5.JPG' },
-    { word: 'deux', image: 'https://raw.githubusercontent.com/BASMaDSBAS/jeu-bda/main/6.JPG' },
-    { word: 'deux', image: 'https://raw.githubusercontent.com/BASMaDSBAS/jeu-bda/main/7.JPG' },
-    { word: 'deux', image: 'https://raw.githubusercontent.com/BASMaDSBAS/jeu-bda/main/8.JPG' },
-    { word: 'deux', image: 'https://raw.githubusercontent.com/BASMaDSBAS/jeu-bda/main/9.JPG' },
-    { word: 'deux', image: 'https://raw.githubusercontent.com/BASMaDSBAS/jeu-bda/main/10.JPG' },
-    { word: 'deux', image: 'https://raw.githubusercontent.com/BASMaDSBAS/jeu-bda/main/11.jpg' }, 
+    { word: 'un', image: 'https://raw.githubusercontent.com/BASMaDSBAS/jeubda/main/1.JPG' },
+    { word: 'deux', image: 'https://raw.githubusercontent.com/BASMaDSBAS/jeubda/main/2.JPG' },
+    { word: 'deux', image: 'https://raw.githubusercontent.com/BASMaDSBAS/jeubda/main/3.JPG' },
+    { word: 'deux', image: 'https://raw.githubusercontent.com/BASMaDSBAS/jeubda/main/4.JPG' },
+    { word: 'deux', image: 'https://raw.githubusercontent.com/BASMaDSBAS/jeubda/main/5.JPG' },
+    { word: 'deux', image: 'https://raw.githubusercontent.com/BASMaDSBAS/jeubda/main/6.JPG' },
+    { word: 'deux', image: 'https://raw.githubusercontent.com/BASMaDSBAS/jeubda/main/7.JPG' },
+    { word: 'deux', image: 'https://raw.githubusercontent.com/BASMaDSBAS/jeubda/main/8.JPG' },
+    { word: 'deux', image: 'https://raw.githubusercontent.com/BASMaDSBAS/jeubda/main/9.JPG' },
+    { word: 'deux', image: 'https://raw.githubusercontent.com/BASMaDSBAS/jeubda/main/10.JPG' },
+    { word: 'deux', image: 'https://raw.githubusercontent.com/BASMaDSBAS/jeubda/main/11.jpg' }, 
     // Ajoutez d'autres données selon vos besoins
 ];
 
